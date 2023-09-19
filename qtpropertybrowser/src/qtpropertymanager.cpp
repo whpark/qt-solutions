@@ -6023,7 +6023,7 @@ void QtFontPropertyManager::setValue(QtProperty *property, const QFont &val)
         return;
 
     const QFont oldVal = it.value();
-    if (oldVal == val && oldVal.resolve() == val.resolve())
+    if (oldVal == val && oldVal.resolve(QFont()) == val.resolve(QFont()))
         return;
 
     it.value() = val;

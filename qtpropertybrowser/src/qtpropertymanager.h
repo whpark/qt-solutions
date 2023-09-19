@@ -6,6 +6,7 @@
 #define QTPROPERTYMANAGER_H
 
 #include "qtpropertybrowser.h"
+#include <qregexp.h>
 #include <QLineEdit>
 
 #if QT_VERSION >= 0x040400
