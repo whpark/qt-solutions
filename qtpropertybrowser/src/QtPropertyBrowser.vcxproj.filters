@@ -1,0 +1,139 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>qrc;rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Form Files">
+      <UniqueIdentifier>{99349809-55BA-4b9d-BF79-8FDBB0286EB3}</UniqueIdentifier>
+      <Extensions>ui</Extensions>
+    </Filter>
+    <Filter Include="Translation Files">
+      <UniqueIdentifier>{639EADAA-A684-42e4-A9AD-28FC9BCB8F7C}</UniqueIdentifier>
+      <Extensions>ts</Extensions>
+    </Filter>
+    <Filter Include="code">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd;qml;cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Generated Files">
+      <UniqueIdentifier>{35ca9d87-e45e-4828-ba42-2b40c54a11f4}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\include\QtPropertyBrowser\qtgroupboxpropertybrowser.h">
+      <Filter>code</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\QtPropertyBrowser\qtpropertymanager.h">
+      <Filter>code</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\QtPropertyBrowser\qttreepropertybrowser.h">
+      <Filter>code</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\QtPropertyBrowser\qtvariantproperty.h">
+      <Filter>code</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="qtgroupboxpropertybrowser.cpp">
+      <Filter>code</Filter>
+    </ClCompile>
+    <ClCompile Include="qtpropertybrowser.cpp">
+      <Filter>code</Filter>
+    </ClCompile>
+    <ClCompile Include="qtvariantproperty.cpp">
+      <Filter>code</Filter>
+    </ClCompile>
+    <ClCompile Include="qtpropertybrowserutils.cpp">
+      <Filter>code</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="images\cursor-ibeam.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="images\cursor-openhand.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="images\cursor-sizeall.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="images\cursor-sizeb.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="images\cursor-sizef.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="images\cursor-sizeh.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="images\cursor-sizev.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="images\cursor-uparrow.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="images\cursor-vsplit.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="images\cursor-wait.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="images\cursor-whatsthis.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="images\cursor-arrow.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="images\cursor-busy.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="images\cursor-closedhand.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="images\cursor-cross.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="images\cursor-forbidden.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="images\cursor-hand.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="images\cursor-hsplit.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <QtRcc Include="qtpropertybrowser.qrc">
+      <Filter>Resource Files</Filter>
+    </QtRcc>
+  </ItemGroup>
+  <ItemGroup>
+    <QtMoc Include="..\include\QtPropertyBrowser\qtpropertybrowser.h">
+      <Filter>code</Filter>
+    </QtMoc>
+    <QtMoc Include="..\include\QtPropertyBrowser\qtbuttonpropertybrowser.h">
+      <Filter>code</Filter>
+    </QtMoc>
+    <QtMoc Include="..\include\QtPropertyBrowser\qteditorfactory.h">
+      <Filter>code</Filter>
+    </QtMoc>
+    <QtMoc Include="qtpropertybrowserutils_p.h">
+      <Filter>code</Filter>
+    </QtMoc>
+    <QtMoc Include="qtbuttonpropertybrowser.cpp">
+      <Filter>code</Filter>
+    </QtMoc>
+    <QtMoc Include="qtpropertymanager.cpp">
+      <Filter>code</Filter>
+    </QtMoc>
+    <QtMoc Include="qttreepropertybrowser.cpp">
+      <Filter>code</Filter>
+    </QtMoc>
+    <QtMoc Include="qteditorfactory.cpp">
+      <Filter>code</Filter>
+    </QtMoc>
+  </ItemGroup>
+</Project>

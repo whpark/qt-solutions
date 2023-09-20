@@ -1,18 +1,43 @@
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "simple", "D:/Project/misc/qt-solutions/qtpropertybrowser/examples/simple\simple.vcxproj", "{A09C36CA-9552-32B7-8703-68DABA7FD52D}"
+VisualStudioVersion = 17.8.34112.27
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "simple", "examples\simple\simple.vcxproj", "{A09C36CA-9552-32B7-8703-68DABA7FD52D}"
+	ProjectSection(ProjectDependencies) = postProject
+		{A725DE2F-6BA9-40CE-9D79-6B7A720E44C2} = {A725DE2F-6BA9-40CE-9D79-6B7A720E44C2}
+	EndProjectSection
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "canvas_variant", "D:/Project/misc/qt-solutions/qtpropertybrowser/examples/canvas_variant\canvas_variant.vcxproj", "{76640F2D-862F-3CA1-9374-68E542B51FED}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "canvas_variant", "examples\canvas_variant\canvas_variant.vcxproj", "{76640F2D-862F-3CA1-9374-68E542B51FED}"
+	ProjectSection(ProjectDependencies) = postProject
+		{A725DE2F-6BA9-40CE-9D79-6B7A720E44C2} = {A725DE2F-6BA9-40CE-9D79-6B7A720E44C2}
+	EndProjectSection
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "canvas_typed", "D:/Project/misc/qt-solutions/qtpropertybrowser/examples/canvas_typed\canvas_typed.vcxproj", "{57738AF3-F67E-37EF-BD46-71BBB86F102A}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "canvas_typed", "examples\canvas_typed\canvas_typed.vcxproj", "{57738AF3-F67E-37EF-BD46-71BBB86F102A}"
+	ProjectSection(ProjectDependencies) = postProject
+		{A725DE2F-6BA9-40CE-9D79-6B7A720E44C2} = {A725DE2F-6BA9-40CE-9D79-6B7A720E44C2}
+	EndProjectSection
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "demo", "D:/Project/misc/qt-solutions/qtpropertybrowser/examples/demo\demo.vcxproj", "{3F3AE985-6C4E-3E62-8686-68DC73EED948}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "demo", "examples\demo\demo.vcxproj", "{3F3AE985-6C4E-3E62-8686-68DC73EED948}"
+	ProjectSection(ProjectDependencies) = postProject
+		{A725DE2F-6BA9-40CE-9D79-6B7A720E44C2} = {A725DE2F-6BA9-40CE-9D79-6B7A720E44C2}
+	EndProjectSection
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "decoration", "D:/Project/misc/qt-solutions/qtpropertybrowser/examples/decoration\decoration.vcxproj", "{96CA7336-B646-333F-8F6A-68A7B798E123}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "decoration", "examples\decoration\decoration.vcxproj", "{96CA7336-B646-333F-8F6A-68A7B798E123}"
+	ProjectSection(ProjectDependencies) = postProject
+		{A725DE2F-6BA9-40CE-9D79-6B7A720E44C2} = {A725DE2F-6BA9-40CE-9D79-6B7A720E44C2}
+	EndProjectSection
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "extension", "D:/Project/misc/qt-solutions/qtpropertybrowser/examples/extension\extension.vcxproj", "{86CB2A98-2D53-3FBE-AC6B-037BBA910611}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "extension", "examples\extension\extension.vcxproj", "{86CB2A98-2D53-3FBE-AC6B-037BBA910611}"
+	ProjectSection(ProjectDependencies) = postProject
+		{A725DE2F-6BA9-40CE-9D79-6B7A720E44C2} = {A725DE2F-6BA9-40CE-9D79-6B7A720E44C2}
+	EndProjectSection
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "object_controller", "D:/Project/misc/qt-solutions/qtpropertybrowser/examples/object_controller\object_controller.vcxproj", "{088BBB7F-D311-31BC-A34E-1ADB860E5EF6}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "object_controller", "examples\object_controller\object_controller.vcxproj", "{088BBB7F-D311-31BC-A34E-1ADB860E5EF6}"
+	ProjectSection(ProjectDependencies) = postProject
+		{A725DE2F-6BA9-40CE-9D79-6B7A720E44C2} = {A725DE2F-6BA9-40CE-9D79-6B7A720E44C2}
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "QtPropertyBrowser", "src\QtPropertyBrowser.vcxproj", "{A725DE2F-6BA9-40CE-9D79-6B7A720E44C2}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -48,9 +73,15 @@ Global
 		{088BBB7F-D311-31BC-A34E-1ADB860E5EF6}.Debug|x64.Build.0 = Debug|x64
 		{088BBB7F-D311-31BC-A34E-1ADB860E5EF6}.Release|x64.ActiveCfg = Release|x64
 		{088BBB7F-D311-31BC-A34E-1ADB860E5EF6}.Release|x64.Build.0 = Release|x64
+		{A725DE2F-6BA9-40CE-9D79-6B7A720E44C2}.Debug|x64.ActiveCfg = Debug|x64
+		{A725DE2F-6BA9-40CE-9D79-6B7A720E44C2}.Debug|x64.Build.0 = Debug|x64
+		{A725DE2F-6BA9-40CE-9D79-6B7A720E44C2}.Release|x64.ActiveCfg = Release|x64
+		{A725DE2F-6BA9-40CE-9D79-6B7A720E44C2}.Release|x64.Build.0 = Release|x64
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
-	EndGlobalSection
-	GlobalSection(ExtensibilityAddIns) = postSolution
+		SolutionGuid = {BFB505F7-1BE1-4763-9FAD-732D869DE85A}
 	EndGlobalSection
 EndGlobal

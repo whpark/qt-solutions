@@ -4,6 +4,7 @@
 
 #include "qtpropertymanager.h"
 #include "qtpropertybrowserutils_p.h"
+#include <QSizePolicy>
 #include <QDateTime>
 #include <QLocale>
 #include <QMap>

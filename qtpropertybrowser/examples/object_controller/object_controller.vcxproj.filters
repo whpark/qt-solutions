@@ -64,6 +64,9 @@
     <ClCompile Include="..\..\src\qtvariantproperty.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <QtMoc Include="objectcontroller.h">
@@ -92,9 +95,6 @@
     </QtMoc>
     <QtMoc Include="..\..\src\qtvariantproperty.h">
       <Filter>Header Files</Filter>
-    </QtMoc>
-    <QtMoc Include="main.cpp">
-      <Filter>Source Files</Filter>
     </QtMoc>
   </ItemGroup>
   <ItemGroup>
