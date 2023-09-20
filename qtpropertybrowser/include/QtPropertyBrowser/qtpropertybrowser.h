@@ -24,6 +24,11 @@ QT_BEGIN_NAMESPACE
 #      undef QT_QTPROPERTYBROWSER_EXPORT
 #    endif
 #    define QT_QTPROPERTYBROWSER_EXPORT __declspec(dllimport)
+#    if defined(_DEBUG)
+#      pragma comment(lib, "QtPropertyBrowserD.lib")
+#    else
+#      pragma comment(lib, "QtPropertyBrowserR.lib")
+#    endif
 #  elif defined(QT_QTPROPERTYBROWSER_EXPORT)
 #    undef QT_QTPROPERTYBROWSER_EXPORT
 #    define QT_QTPROPERTYBROWSER_EXPORT __declspec(dllexport)

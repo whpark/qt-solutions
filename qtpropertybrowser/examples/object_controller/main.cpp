@@ -16,6 +16,7 @@
 #include <QTextDocument>
 #include <QCalendarWidget>
 #include <QTimeLine>
+#include <QScreen>
 #include "objectcontroller.h"
 
 class MyController : public QDialog
@@ -103,7 +104,8 @@ void MyController::createAndControl()
         r.setSize(newWidget->sizeHint());
         r.setWidth(qMax(r.width(), 150));
         r.setHeight(qMax(r.height(), 50));
-        r.moveCenter(QApplication::desktop()->geometry().center());
+        auto* screen = QApplication::screenAt(QPoint(0, 0));
+        r.moveCenter(screen->geometry().center());
         newWidget->setGeometry(r);
         newWidget->setWindowTitle(tr("Controlled Object: %1").arg(className));
         newWidget->show();
