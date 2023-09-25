@@ -195,27 +195,6 @@
   <ItemGroup>
     <ClCompile Include="main.cpp" />
   </ItemGroup>
-  <ItemGroup>
-    <None Include="..\..\src\images\cursor-arrow.png" />
-    <None Include="..\..\src\images\cursor-busy.png" />
-    <None Include="..\..\src\images\cursor-closedhand.png" />
-    <None Include="..\..\src\images\cursor-cross.png" />
-    <None Include="..\..\src\images\cursor-forbidden.png" />
-    <None Include="..\..\src\images\cursor-hand.png" />
-    <None Include="..\..\src\images\cursor-hsplit.png" />
-    <None Include="..\..\src\images\cursor-ibeam.png" />
-    <None Include="..\..\src\images\cursor-openhand.png" />
-    <None Include="..\..\src\images\cursor-sizeall.png" />
-    <None Include="..\..\src\images\cursor-sizeb.png" />
-    <None Include="..\..\src\images\cursor-sizef.png" />
-    <None Include="..\..\src\images\cursor-sizeh.png" />
-    <None Include="..\..\src\images\cursor-sizev.png" />
-    <None Include="..\..\src\images\cursor-uparrow.png" />
-    <None Include="..\..\src\images\cursor-vsplit.png" />
-    <None Include="..\..\src\images\cursor-wait.png" />
-    <None Include="..\..\src\images\cursor-whatsthis.png" />
-    <QtRcc Include="..\..\src\qtpropertybrowser.qrc" />
-  </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <Import Project="$(QtMsBuild)\qt.targets" Condition="Exists('$(QtMsBuild)\qt.targets')" />
   <ImportGroup Label="ExtensionTargets" />
