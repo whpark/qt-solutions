@@ -22,20 +22,6 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="..\include\QtPropertyBrowser\qtgroupboxpropertybrowser.h">
-      <Filter>code</Filter>
-    </ClInclude>
-    <ClInclude Include="..\include\QtPropertyBrowser\qtpropertymanager.h">
-      <Filter>code</Filter>
-    </ClInclude>
-    <ClInclude Include="..\include\QtPropertyBrowser\qttreepropertybrowser.h">
-      <Filter>code</Filter>
-    </ClInclude>
-    <ClInclude Include="..\include\QtPropertyBrowser\qtvariantproperty.h">
-      <Filter>code</Filter>
-    </ClInclude>
-  </ItemGroup>
-  <ItemGroup>
     <ClCompile Include="qtgroupboxpropertybrowser.cpp">
       <Filter>code</Filter>
     </ClCompile>
@@ -46,6 +32,9 @@
       <Filter>code</Filter>
     </ClCompile>
     <ClCompile Include="qtpropertybrowserutils.cpp">
+      <Filter>code</Filter>
+    </ClCompile>
+    <ClCompile Include="qtbuttonpropertybrowser.cpp">
       <Filter>code</Filter>
     </ClCompile>
   </ItemGroup>
@@ -123,9 +112,6 @@
     <QtMoc Include="qtpropertybrowserutils_p.h">
       <Filter>code</Filter>
     </QtMoc>
-    <QtMoc Include="qtbuttonpropertybrowser.cpp">
-      <Filter>code</Filter>
-    </QtMoc>
     <QtMoc Include="qtpropertymanager.cpp">
       <Filter>code</Filter>
     </QtMoc>
@@ -133,6 +119,18 @@
       <Filter>code</Filter>
     </QtMoc>
     <QtMoc Include="qteditorfactory.cpp">
+      <Filter>code</Filter>
+    </QtMoc>
+    <QtMoc Include="..\include\QtPropertyBrowser\qtgroupboxpropertybrowser.h">
+      <Filter>code</Filter>
+    </QtMoc>
+    <QtMoc Include="..\include\QtPropertyBrowser\qtpropertymanager.h">
+      <Filter>code</Filter>
+    </QtMoc>
+    <QtMoc Include="..\include\QtPropertyBrowser\qttreepropertybrowser.h">
+      <Filter>code</Filter>
+    </QtMoc>
+    <QtMoc Include="..\include\QtPropertyBrowser\qtvariantproperty.h">
       <Filter>code</Filter>
     </QtMoc>
   </ItemGroup>
